@@ -1,0 +1,361 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #757575;
+}
+
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+body {
+    color: #757575;
+    height: 100%;
+    line-height: 1;
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Raleway', sans-serif; */
+
+}
+
+
+/* ==============================================================================================================
+                                    HEDEAR
+============================================================================================================== */
+
+.header-nav {
+    width: 1170px;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-page {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: #000;
+    display: flex;
+    align-items: center;
+    margin-right: 95px;
+}
+
+.logo-web {
+    color: #2196F3;
+}
+
+.header-list-box {
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-list {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    display: inline-block;
+}
+
+.header-link {
+    color: #212121;
+}
+
+.header-link:hover,
+.header-link:focus {
+    color: #2196F3;
+}
+
+.nav-page .header-link.current {
+    color: #2196F3;
+}
+
+.contacts {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    width: 310px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heder-linked {
+    color: #757575;
+}
+
+
+/* ==============================================================================================================
+                                    MAINE
+============================================================================================================== */
+
+
+/* =======================HERO================================= */
+
+.container {
+    background: #2F303A;
+}
+
+.hero {
+    width: 1170px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    padding-top: 200px;
+    width: 695px;
+    margin-left: 235px;
+}
+
+.hero-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    color: #FFFFFF;
+    margin: 45px 470px 200px;
+    cursor: pointer;
+    border: none;
+    width: 215px;
+    border-radius: 4px;
+    height: 50px;
+    background: #2196F3;
+}
+
+/* =====================OUR SKILLS======================== */
+
+
+.wrapp {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.wrapp-box {
+    height: 295px;
+}
+
+
+.title-none {
+    width: 1px;
+    height: 1px;
+    color: #FFFFFF;
+}
+
+.skills-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: inherit;
+}
+
+
+.list {
+    width: 270px;
+    height: 100px;
+}
+
+.list-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: #212121;
+    padding-bottom: 20px;
+}
+
+.list-about {
+    color: #757575;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+
+/* ===================About our skills======================== */
+
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    color: #212121;
+    margin-bottom: 60px;
+}
+
+.list-box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 95px;
+}
+
+.section-list {
+    display: flex;
+    display: inline-block;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.title-team {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    color: #212121;
+    padding-top: 30px;
+}
+
+.team-job {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.list-size {
+    background: #fff;
+    height: 370px;
+    width: 270px;
+    border: #fff solid 1px;
+    box-shadow: 20%;
+}
+
+
+/* ==============================================================================================================
+                                   FOOTER
+============================================================================================================== */
+address {
+    font-style: normal;
+}
+
+footer {
+    background: #2F303A;
+    height: 250px;
+}
+
+.black {
+    color: #2F303A;
+}
+
+.footer-logo {
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.link-maps {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: #FFFFFF;
+}
+
+.foot-list {
+    padding-bottom: 15px;
+}
+
+.link-address {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+
+/* ============================================================
+                                PORTFOLIO
+============================================================ */
+
+/* ======================================================================================
+                                   MAIN
+======================================================================================== */
+
+.portfolio {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.navigatio-box {
+    display: flex;
+    justify-content: space-between;
+    width: 575px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+
+.port-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 2.5;
+    color: #212121;
+    width: 100px;
+    height: 40px;
+    background: #F5F4FA;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.port-button:hover,
+.port-button:focus {
+    background: #2196F3;
+}
+
+.port-button:hover,
+.port-button:focus {
+    color: #FFFFFF;
+}
+
+.portfolio-conteiner {
+    height: 1277px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.portfolio-link {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    height: 405px;
+}
+
+.portfolio-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.25;
+    color: #212121;
+    padding-left: 25px;
+    padding-top: 35px;
+}
+
+.categoray {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    padding-left: 25px;
+}

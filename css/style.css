@@ -17,7 +17,6 @@ li {
 }
 
 body {
-    color: #757575;
     height: 100%;
     line-height: 1;
     font-family: 'Roboto', sans-serif;
@@ -30,6 +29,7 @@ body {
     --text-color:#212121;
     --secondary-text-color:#757575;
     --bg-link-color: #2196F3;
+    --logo-color: #000000;
     
 }
 
@@ -37,6 +37,7 @@ button {
     font-family: inherit;
     font-weight: inherit;
     font-size: inherit;
+    cursor: pointer;
 }
 /* ==============================================================================================================
                                     HEDEAR
@@ -60,7 +61,7 @@ button {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    color: #000;
+    color: var(--logo-color);
     display: flex;
     align-items: center;
     margin-right: 95px;
@@ -267,6 +268,7 @@ footer {
 .footer-logo {
     padding-top: 60px;
     padding-bottom: 30px;
+    color:var(--third-text-color) ;
 }
 
 .link-maps {
